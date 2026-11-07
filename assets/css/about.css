@@ -1,0 +1,326 @@
+.about-me-section {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    padding: clamp(3.5rem, 7vw, 7rem) 0;
+    gap: clamp(2rem, 3vw, 3rem);
+    display: flex;
+    flex-direction: column;
+    background: #006AFF;
+    background: radial-gradient(circle at 0% 0%, rgba(0, 106, 255, 1) 0%, rgba(0, 52, 125, 1) 12.5%, rgba(0, 0, 0, 0) 25%),
+        radial-gradient(circle at 100% 100%, rgba(0, 106, 255, 1) 0%, rgba(0, 52, 125, 1) 12.5%, rgba(0, 0, 0, 0) 25%);
+    background-color: var(--primary-background);
+}
+
+.about-layout {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-areas:
+        "name intro"
+        "cards cards";
+    align-items: start;
+    column-gap: clamp(2.5rem, 6vw, 5rem);
+    row-gap: clamp(2rem, 3vw, 3rem);
+    width: min(70vw, 1440px);
+    margin-inline: auto;
+    align-items: center;
+}
+
+.about-me-content {
+    display: contents;
+}
+
+@media (min-width: 769px) and (max-width: 1032px) {
+    .about-layout {
+        width: 85vw;
+    }
+}
+
+@media (min-width: 541px) and (max-width: 768px) {
+    .about-layout {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 540px) {
+    .about-layout {
+        width: 94vw;
+    }
+}
+
+@media (max-width: 320px) {
+    .about-layout {
+        width: 96vw;
+    }
+}
+
+.fullname-wrapper {
+    grid-area: name;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: clamp(0.5rem, 0.8vw, 0.85rem);
+    width: 100%;
+    min-width: 0;
+}
+
+.fullname-wrapper svg {
+    display: block;
+    max-width: 100%;
+}
+
+.hello {
+    width: 50%;
+    max-width: 15rem;
+}
+
+.anas,
+.yahyoh {
+    width: 100%;
+}
+
+.about-me-info-container,
+.about-me-info {
+    width: 100%;
+    min-width: 0;
+}
+
+.about-me-info-container {
+    grid-area: intro;
+}
+
+.about-me-info {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.65rem, 1vw, 1rem);
+}
+
+.about-me-section .head-info {
+    color: var(--brand-color-hover);
+    font-family: var(--primary-font);
+    font-size: clamp(2rem, 3vw, 3rem);
+    font-weight: 400;
+    line-height: 1.15;
+}
+
+.about-me-section .sub-info {
+    color: var(--nav-text-link-hover);
+    font-family: var(--paragraph-font);
+    font-size: clamp(1.25rem, 1.5vw, 1.5rem);
+    font-weight: 300;
+    line-height: 1.65;
+}
+
+.about-me-section .card-sub {
+    color: var(--nav-text-link-hover);
+    font-family: var(--paragraph-font);
+    font-size: clamp(1rem, 1.35vw, 1.3rem);
+    font-weight: 300;
+    line-height: 1.65;
+}
+
+.about-me-card-wrapper {
+    grid-area: cards;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(1rem, 1.5vw, 1.5rem);
+    width: 100%;
+}
+
+.about-me-card {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 1vw 2vw;
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 1vw;
+    background-color: rgba(0, 0, 0, .1);
+    background: linear-gradient(0deg, rgba(255, 255, 255, .065), rgba(255, 255, 255, .025) 58%, rgba(0, 106, 255, .045));
+    backdrop-filter: var(--backdrop-filter);
+    -webkit-backdrop-filter: var(--backdrop-filter);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, .25);
+}
+
+.card-head {
+    color: var(--brand-color);
+    font-family: var(--sub-font);
+    font-size: 20px;
+    text-wrap: nowrap;
+}
+
+.card-sub {
+    color: var(--nav-text-link-hover);
+    font-family: var(--paragraph-font);
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.about-me-section .about-me-card {
+    min-width: 0;
+    height: 100%;
+    gap: clamp(0.65rem, 1vw, 1rem);
+    padding: clamp(1.15rem, 2vw, 2rem);
+    border-radius: clamp(1rem, 1.5vw, 1.5rem);
+    box-shadow: inset 0 1px rgba(255, 255, 255, .08);
+    transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.about-me-section .card-head {
+    font-size: clamp(1.15rem, 1.8vw, 1.65rem);
+    line-height: 1.2;
+    white-space: normal;
+    text-wrap: balance;
+    overflow-wrap: anywhere;
+}
+
+.about-me-section .about-me-card:hover {
+    transition: .3s;
+    transform: translateY(-3px);
+    border-color: rgba(255, 255, 255, .38);
+}
+
+@media (max-width: 320px) {
+    .about-me-section {
+        background: #006AFF;
+        background: radial-gradient(circle at 0% 0%, rgba(0, 106, 255, 1) 0%, rgba(0, 52, 125, 1) 1.25%, rgba(0, 0, 0, 0) 2.5%),
+            radial-gradient(circle at 100% 100%, rgba(0, 106, 255, 1) 0%, rgba(0, 52, 125, 1) 1.25%, rgba(0, 0, 0, 0) 2.5%);
+        background-color: var(--primary-background);
+    }
+}
+
+@media (max-width: 375px) {
+    .about-me-section {
+        background: #006AFF;
+        background: radial-gradient(circle at 0% 0%, rgba(0, 106, 255, 1) 0%, rgba(0, 52, 125, 1) 2.5%, rgba(0, 0, 0, 0) 5%),
+            radial-gradient(circle at 100% 100%, rgba(0, 106, 255, 1) 0%, rgba(0, 52, 125, 1) 2.5%, rgba(0, 0, 0, 0) 5%);
+        background-color: var(--primary-background);
+    }
+}
+
+@media (max-width: 425px) {
+    .about-me-section {
+        background: #006AFF;
+        background: radial-gradient(circle at 0% 0%, rgba(0, 106, 255, 1) 0%, rgba(0, 52, 125, 1) 5%, rgba(0, 0, 0, 0) 10%),
+            radial-gradient(circle at 100% 100%, rgba(0, 106, 255, 1) 0%, rgba(0, 52, 125, 1) 5%, rgba(0, 0, 0, 0) 10%);
+        background-color: var(--primary-background);
+    }
+}
+
+@media (max-width: 540px) {
+    .about-me-section {
+        background: #006AFF;
+        background: radial-gradient(circle at 0% 0%, rgba(0, 106, 255, 1) 0%, rgba(0, 52, 125, 1) 10%, rgba(0, 0, 0, 0) 20%),
+            radial-gradient(circle at 100% 100%, rgba(0, 106, 255, 1) 0%, rgba(0, 52, 125, 1) 10%, rgba(0, 0, 0, 0) 20%);
+        background-color: var(--primary-background);
+    }
+}
+
+@media (max-width: 640px) {
+    .about-me-section {
+        padding-block: 3.5rem;
+        padding-inline: 0;
+    }
+
+    .about-layout {
+        padding: 0 3%;
+    }
+
+    .fullname-wrapper {
+        width: min(88%, 34rem);
+    }
+
+    .about-me-card-wrapper {
+        gap: 1rem;
+    }
+
+    .about-me-section .about-me-card {
+        padding: 1.25rem;
+        border-radius: 1rem;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .about-me-section {
+        padding-inline: 0;
+    }
+
+    .about-layout {
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-areas:
+            "name"
+            "intro"
+            "cards";
+        row-gap: clamp(2rem, 5vw, 3rem);
+    }
+
+    .fullname-wrapper {
+        width: min(72%, 36rem);
+    }
+
+    .about-me-card-wrapper {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .about-me-section .circle-gradient {
+        width: min(80vw, 42rem);
+    }
+}
+
+@media (min-width: 1024px) {
+    .about-layout {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        grid-template-areas: "name content";
+        align-items: stretch;
+        row-gap: 0;
+    }
+
+    .fullname-wrapper {
+        height: 100%;
+    }
+
+    .about-me-content {
+        grid-area: content;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-rows: max-content max-content;
+        grid-template-areas:
+            "intro"
+            "cards";
+        align-content: center;
+        gap: clamp(0.6rem, 2.8cqh, 1.5rem);
+        align-self: stretch;
+        height: 100%;
+        min-height: 0;
+        container: about-content / size;
+    }
+
+    .about-me-card-wrapper {
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: clamp(1rem, 1.5cqh, 1.5rem);
+        min-height: 0;
+    }
+
+    .about-me-section .about-me-card {
+        padding-block: clamp(1.25rem, 2.4cqh, 2rem) clamp(1rem, 2.4cqh, 1rem);
+        padding-inline: clamp(1rem, 1.8vw, 1.8rem);
+        gap: clamp(.8rem, 1.5cqh, 1.25rem);
+    }
+
+    .about-me-section .sub-info,
+    .about-me-section .card-sub {
+        font-size: clamp(0.82rem, 4.3cqh, 1.6rem);
+        line-height: 1.35;
+    }
+
+    .about-me-section .card-head {
+        font-size: clamp(0.95rem, 4.5cqh, 1.8rem);
+    }
+
+    .about-me-section .head-info {
+        font-size: clamp(1.05rem, 5.8cqh, 2.25rem);
+    }
+}

@@ -2,501 +2,428 @@
 <html lang="en">
 
 <head>
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="assets/image/hero/favicon.jpg" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#000000">
-    <meta name="description" content="Anas Yahyoh is a mathematics and computer science student building thoughtful digital experiences.">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="icon" href="assets/images/brand/aywhite-logo.png" type="image/x-icon">
-    <title>Anas Yahyoh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=mail" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Antonio:wght@100..700&family=Noto+Sans+Thai:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/body.css">
+    <link rel="stylesheet" href="assets/css/hero.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/edu.css">
+    <link rel="stylesheet" href="assets/css/skills-tools.css">
+    <link rel="stylesheet" href="assets/css/projects.css">
+    <link rel="stylesheet" href="assets/css/designs.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <script src="assets/js/script.js" defer></script>
 </head>
 
-<body class="page-home">
-    <nav class="site-nav" aria-label="Main navigation">
-        <a class="brand" href="index.html" aria-label="Anas Yahyoh, home">
-            <span class="brand-mark">A<span>Y</span></span>
-        </a>
+<body>
+    <nav class="top-nav-bar">
+        <a href=""><span class="brand-logo">ANAS</span></a>
+
         <div class="nav-links">
-            <a href="index.html" aria-current="page">
-                Home
-            </a>
-            <a href="pages/projects.html">
-                Projects
-            </a>
-            <a href="pages/design.html">
-                Design
-            </a>
+            <a href="#hero-section"><span class="nav-text-link">Home</span></a>
+            <a href="#about-me-section"><span class="nav-text-link">About</span></a>
+            <a href="#projects"><span class="nav-text-link">Projects</span></a>
+            <a href="#contact-section"><span class="nav-text-link">Contact</span></a>
         </div>
     </nav>
 
-    <main>
-    <section id="home" class="home">
+    <main class="hero-section" id="hero-section">
+        <div class="hero-sub-contact">
+            <a href="https://www.facebook.com/anas.yahyoh.5/" target="_blank">
+                <div class="sub-contact">
+                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <title>Facebook</title>
+                        <path fill="fff"
+                            d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" />
+                    </svg>
+                    <span class="text">Anas Yahyoh</span>
+                </div>
+            </a>
+            <a href="mailto:anas.yahyoh48@gmail.com" target="_blank">
+                <div class="sub-contact">
+                    <span class="material-symbols-outlined">mail</span>
+                    <span class="text">anas.yahyoh48@gmail.com</span>
+                </div>
+            </a>
+            <a href="https://github.com/anasyahyoh-hub" target="_blank">
+                <div class="sub-contact">
+                    <svg viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z"
+                            transform="scale(64)" />
+                    </svg>
+
+                    <span class="text">anasyahyoh</span>
+                </div>
+            </a>
+        </div>
+
         <div class="hero">
-            <div class="hero-copy">
-                <p class="eyebrow"><span class="eyebrow-dot"></span> Mathematics &amp; computer science student</p>
-                <h1 class="fullname"><span>ANAS</span><span>YAHYOH<span class="accent">.</span></span></h1>
-                <p class="hero-description">I enjoy turning curiosity into useful things, from solving problems with code to creating visuals with purpose.</p>
-                <div class="hero-actions">
-                    <a class="button button-primary" href="pages/projects.html">Explore my work <span aria-hidden="true">↗</span></a>
-                    <a class="button button-quiet" href="#about">Get to know me <span aria-hidden="true">↓</span></a>
+            <div class="capsule-container">
+                <div class="left-capsule-wrapper">
+                    <div class="capsule">
+                        <span class="text">PSU Pattani</span>
+                    </div>
+                    <div class="capsule">
+                        <span class="text">3.70 GPA</span>
+                    </div>
                 </div>
-                <p class="hero-note">Aspiring full stack developer · Thailand</p>
-            </div>
-            <div class="hero-portrait">
-                <img src="assets/images/home/anas-outline.png" alt="Portrait of Anas Yahyoh">
-                <div class="portrait-label"><span>01</span> BASED IN THAILAND</div>
-            </div>
-        </div>
-    </section>
 
-    <section id="about" class="about">
-        <div class="about_me">
-            <div class="text">
-                <p class="section-kicker">01 / A little about me</p>
-                <h2>Curious about how things work.</h2>
-                <div class="describe">
-                    <h3>Hello, I'm Anas.</h3>
-                    <p>Mathematics and computer science student with a growing interest in full stack development.</p>
+                <div class="right-capsule-wrapper">
+                    <div class="capsule">
+                        <span class="text">3 Years of Experience</span>
+                    </div>
+                    <div class="capsule">
+                        <svg class="yt-icon" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"
+                            viewBox="0 0 256 180">
+                            <path class="square"
+                                d="M250.346 28.075A32.18 32.18 0 0 0 227.69 5.418C207.824 0 127.87 0 127.87 0S47.912.164 28.046 5.582A32.18 32.18 0 0 0 5.39 28.24c-6.009 35.298-8.34 89.084.165 122.97a32.18 32.18 0 0 0 22.656 22.657c19.866 5.418 99.822 5.418 99.822 5.418s79.955 0 99.82-5.418a32.18 32.18 0 0 0 22.657-22.657c6.338-35.348 8.291-89.1-.164-123.134Z" />
+                            <path class="triangle" d="m102.421 128.06 66.328-38.418-66.328-38.418z" />
+                        </svg>
+                        <span class="text">Thumbnail Designer</span>
+                    </div>
                 </div>
-                <a class="text-link" href="pages/projects.html">A look at what I make <span aria-hidden="true">↗</span></a>
             </div>
-            <img src="assets/images/about/anaswhiteshirt.png" alt="Anas Yahyoh" loading="lazy">
 
-        </div>
-        <div class="skillsandtools">
-            <p class="section-kicker">02 / My toolkit</p>
-            <h2>Skills &amp; tools</h2>
-            <div class="tools">
-                <div class="icon-bg">
-                    <img src="assets/images/skills/html5.png" alt="">
-                    <span>HTML</span>
-                </div>
-                <div class="icon-bg">
-                    <img src="assets/images/skills/css3.png" alt="">
-                    <span>CSS</span>
-                </div>
-                <div class="icon-bg">
-                    <img src="assets/images/skills/javascript.png" alt="">
-                    <span>JavaScript</span>
-                </div>
-                <div class="icon-bg">
-                    <img src="assets/images/skills/c.png" alt="">
-                    <span>C</span>
-                </div>
-                <div class="icon-bg">
-                    <img src="assets/images/skills/cpp.png" alt="">
-                    <span>C++</span>
-                </div>
-                <div class="icon-bg">
-                    <img src="assets/images/skills/python.png" alt="">
-                    <span>Python</span>
-                </div>
-                <div class="icon-bg">
-                    <img src="assets/images/skills/vscode.png" alt="">
-                    <span>VS Code</span>
-                </div>
-                <div class="icon-bg">
-                    <img src="assets/images/skills/chat-gpt.webp" alt="">
-                    <span>ChatGPT</span>
-                </div>
-                <div class="icon-bg">
-                    <img src="assets/images/skills/gemini.webp" alt="">
-                    <span>Gemini</span>
-                </div>
-                <div class="icon-bg">
-                    <img src="assets/images/skills/ibis-paint.webp" alt="">
-                    <span>ibisPaint</span>
-                </div>
-                <div class="icon-bg">
-                    <img src="assets/images/skills/linearity.webp" alt="">
-                    <span>Linearity</span>
-                </div>
-                <div class="icon-bg">
-                    <img src="assets/images/skills/canva.webp" alt="">
-                    <span>Canva</span>
-                </div>
-                <div class="icon-bg">
-                    <img src="assets/images/skills/affinity-app-logo.png" alt="">
-                    <span>Affinity</span>
-                </div>
-                <div class="icon-bg">
-                    <img src="assets/images/skills/cap-cut.webp" alt="">
-                    <span>CapCut</span>
-                </div>
-            </div>
+            <img src="assets/image/hero/anas.png" alt="Anas Profile" width="1099" height="1470">
         </div>
 
-        <div class="education">
-            <p class="section-kicker">03 / The learning so far</p>
-            <h2>Education</h2>
-            <div class="highschool">
-                <h3>2021-2024 Azizstan Foundation School<br>GPAX: 3.52</h3>
-            </div>
-            <div class="university">
-                <h3>2024-Present <br>Prince of Songkla University Pattani Campus<br>GPAX: 3.70</h3>
-
-                <div class="result">
-                    <details class="semester1_2567">
-                        <summary>Semester 1/2567 <span>GPA: 3.67</span></summary>
-                        <div class="table-scroll">
-<table>
-                            <thead>
-                                <tr>
-                                    <th>Course code</th>
-                                    <th>Subject Name</th>
-                                    <th>Credit</th>
-                                    <th>Grade</th>
-                                </tr>
-                            </thead>
-
-                            <tbody>
-                                <tr>
-                                    <td>117-103</td>
-                                    <td>NEW CONSCIOUSNESS AND LIVING A PEACEFUL LIFE</td>
-                                    <td>3</td>
-                                    <td>B+</td>
-                                </tr>
-
-                                <tr>
-                                    <td>117-116</td>
-                                    <td>DIGITAL ENVIRONMENT LITERACY</td>
-                                    <td>2</td>
-                                    <td>A</td>
-                                </tr>
-
-                                <tr>
-                                    <td>411-101</td>
-                                    <td>THAI LANGUAGE YOUR LANGUAGE</td>
-                                    <td>2</td>
-                                    <td>B</td>
-                                </tr>
-
-                                <tr>
-                                    <td>417-101</td>
-                                    <td>HI ! ENGLISH</td>
-                                    <td>2</td>
-                                    <td>B</td>
-                                </tr>
-
-                                <tr>
-                                    <td>746-141</td>
-                                    <td>CALCULUS I</td>
-                                    <td>3</td>
-                                    <td>A</td>
-                                </tr>
-
-                                <tr>
-                                    <td>747-102</td>
-                                    <td>ANSWERING QUESTIONS WITH DATA</td>
-                                    <td>2</td>
-                                    <td>A</td>
-                                </tr>
-
-                                <tr>
-                                    <td>748-121</td>
-                                    <td>INTRODUCTION TO COMPUTER PROGRAMMING</td>
-                                    <td>3</td>
-                                    <td>A</td>
-                                </tr>
-                            </tbody>
-
-                            <tfoot>
-                                <tr>
-                                    <td colspan="4" class="summary">
-                                        GPAX : 3.67
-                                    </td>
-                                </tr>
-                            </tfoot>
-                        </table>
-</div>
-                    </details>
-
-                    <details class="semester2_2567">
-                        <summary>Semester 2/2567 <span>GPA: 3.72</span></summary>
-                        <div class="table-scroll">
-<table>
-                            <thead>
-                                <tr>
-                                    <th>Course code</th>
-                                    <th>Subject Name</th>
-                                    <th>Credit</th>
-                                    <th>Grade</th>
-                                </tr>
-                            </thead>
-
-                            <tbody>
-                                <tr>
-                                    <td>001-102</td>
-                                    <td>SUFFICIENCY ECONOMY PHILOSOPHY AND SUSTAINABLE DEVELOPMENT GOALS</td>
-                                    <td>2</td>
-                                    <td>B</td>
-                                </tr>
-
-                                <tr>
-                                    <td>299-104</td>
-                                    <td>VALUES OF THE WISE AND DELIBERATION</td>
-                                    <td>2</td>
-                                    <td>A</td>
-                                </tr>
-
-                                <tr>
-                                    <td>417-102</td>
-                                    <td>PEN AND POST</td>
-                                    <td>2</td>
-                                    <td>B+</td>
-                                </tr>
-
-                                <tr>
-                                    <td>711-101</td>
-                                    <td>BENEFIT OF MANKINDS</td>
-                                    <td>1</td>
-                                    <td>P</td>
-                                </tr>
-
-                                <tr>
-                                    <td>746-103</td>
-                                    <td>FINMATH</td>
-                                    <td>2</td>
-                                    <td>A</td>
-                                </tr>
-
-                                <tr>
-                                    <td>746-142</td>
-                                    <td>CALCULUS II</td>
-                                    <td>3</td>
-                                    <td>A</td>
-                                </tr>
-
-                                <tr>
-                                    <td>747-212</td>
-                                    <td>PRINCIPLE OF STATISTICS</td>
-                                    <td>3</td>
-                                    <td>A</td>
-                                </tr>
-
-                                <tr>
-                                    <td>748-122</td>
-                                    <td>FUNDAMENTAL OF COMPUTER SCIENCE</td>
-                                    <td>3</td>
-                                    <td>B+</td>
-                                </tr>
-
-                                <tr>
-                                    <td>993-172</td>
-                                    <td>SOCIAL ENGAGEMENT IN CRISIS</td>
-                                    <td>1</td>
-                                    <td>B+</td>
-                                </tr>
-                            </tbody>
-
-                            <tfoot>
-                                <tr>
-                                    <td colspan="4" class="summary">
-                                        GPAX : 3.70
-                                    </td>
-                                </tr>
-                            </tfoot>
-                        </table>
-</div>
-                    </details>
-
-                    <details class="semester1_2568">
-                        <summary>Semester 1/2568 <span>GPA: 3.71</span></summary>
-                        <div class="table-scroll">
-<table>
-                            <thead>
-                                <tr>
-                                    <th>Course code</th>
-                                    <th>Subject Name</th>
-                                    <th>Credit</th>
-                                    <th>Grade</th>
-                                </tr>
-                            </thead>
-
-                            <tbody>
-                                <tr>
-                                    <td>125-101</td>
-                                    <td>CREATIVE CRAFT</td>
-                                    <td>1</td>
-                                    <td>A</td>
-                                </tr>
-
-                                <tr>
-                                    <td>125-102</td>
-                                    <td>MIRACLE OF WISDOM</td>
-                                    <td>2</td>
-                                    <td>A</td>
-                                </tr>
-
-                                <tr>
-                                    <td>145-101</td>
-                                    <td>COMPANION ANIMALS</td>
-                                    <td>3</td>
-                                    <td>A</td>
-                                </tr>
-
-                                <tr>
-                                    <td>196-101</td>
-                                    <td>CITIZENSHIP</td>
-                                    <td>2</td>
-                                    <td>A</td>
-                                </tr>
-
-                                <tr>
-                                    <td>281-207</td>
-                                    <td>BASKETBALL</td>
-                                    <td>1</td>
-                                    <td>C+</td>
-                                </tr>
-
-                                <tr>
-                                    <td>746-225</td>
-                                    <td>PRINCIPLE OF MATHEMATICS</td>
-                                    <td>3</td>
-                                    <td>B</td>
-                                </tr>
-
-                                <tr>
-                                    <td>746-242</td>
-                                    <td>ORDINARY DIFFERENTIAL EQUATIONS AND APPLICATIONS</td>
-                                    <td>3</td>
-                                    <td>A</td>
-                                </tr>
-
-                                <tr>
-                                    <td>748-221</td>
-                                    <td>DATA STRUCTURE</td>
-                                    <td>3</td>
-                                    <td>B+</td>
-                                </tr>
-
-                                <tr>
-                                    <td>748-223</td>
-                                    <td>DATA MANAGEMENT</td>
-                                    <td>3</td>
-                                    <td>A</td>
-                                </tr>
-                            </tbody>
-
-                            <tfoot>
-                                <tr>
-                                    <td colspan="4" class="summary">
-                                        GPAX : 3.70
-                                    </td>
-                                </tr>
-                            </tfoot>
-                        </table>
-</div>
-                    </details>
-
-                    <details class="semester2_2568">
-                        <summary>Semester 2/2568 <span>GPA: 3.71</span></summary>
-                        <div class="table-scroll">
-<table>
-                            <thead>
-                                <tr>
-                                    <th>Course code</th>
-                                    <th>Subject Name</th>
-                                    <th>Credit</th>
-                                    <th>Grade</th>
-                                </tr>
-                            </thead>
-
-                            <tbody>
-                                <tr>
-                                    <td>017-201</td>
-                                    <td>DIGITAL LIBRARY AND LEARNING INNOVATION</td>
-                                    <td>2</td>
-                                    <td>A</td>
-                                </tr>
-
-                                <tr>
-                                    <td>437-202</td>
-                                    <td>SMART THOUGHT, CLEVER UNDERSTANDING</td>
-                                    <td>2</td>
-                                    <td>B+</td>
-                                </tr>
-
-                                <tr>
-                                    <td>746-221</td>
-                                    <td>LINEAR ALGEBRA AND APPLICATIONS</td>
-                                    <td>3</td>
-                                    <td>A</td>
-                                </tr>
-
-                                <tr>
-                                    <td>746-241</td>
-                                    <td>CALCULUS OF SERVERAL VARIABLES</td>
-                                    <td>3</td>
-                                    <td>B</td>
-                                </tr>
-
-                                <tr>
-                                    <td>747-221</td>
-                                    <td>PROBABILITY</td>
-                                    <td>3</td>
-                                    <td>A</td>
-                                </tr>
-
-                                <tr>
-                                    <td>748-111</td>
-                                    <td>LAWS AND ETHICS IN INFORMATION TECHNOLOGY</td>
-                                    <td>3</td>
-                                    <td>A</td>
-                                </tr>
-
-                                <tr>
-                                    <td>748-222</td>
-                                    <td>ALGORITHMS AND COMPLEXITY ANALYSIS OF ALGORITHMS</td>
-                                    <td>3</td>
-                                    <td>B+</td>
-                                </tr>
-                            </tbody>
-
-                            <tfoot>
-                                <tr>
-                                    <td colspan="4" class="summary">
-                                        GPAX : 3.70
-                                    </td>
-                                </tr>
-                            </tfoot>
-                        </table>
-</div>
-                    </details>
-                </div>
-
-            </div>
-        </div>
-    </section>
+        <svg class="name-bg" viewBox="0 0 31 14" preserveAspectRatio="none" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+                    <stop offset="0%" stop-color="rgb(0, 106, 255)" />
+                    <stop offset="100%" stop-color="rgb(0, 0, 0)" />
+                </linearGradient>
+            </defs>
+            <path fill="url(#gradient)"
+                d="M0 13.875L1.32812 0.125H5.99219L7.29688 13.875H4.69531L4.5 11.6562H2.84375L2.67188 13.875H0ZM3.03906 9.46094H4.28906L3.6875 2.46875H3.5625L3.03906 9.46094ZM8.14062 13.875V0.125H10.9688L12.2344 6.71094V0.125H14.8906V13.875H12.2031L10.8281 7V13.875H8.14062ZM15.7344 13.875L17.0625 0.125H21.7266L23.0312 13.875H20.4297L20.2344 11.6562H18.5781L18.4062 13.875H15.7344ZM18.7734 9.46094H20.0234L19.4219 2.46875H19.2969L18.7734 9.46094ZM27.1406 14C25.8854 14 24.9792 13.6875 24.4219 13.0625C23.8698 12.4375 23.5938 11.4427 23.5938 10.0781V8.73438H26.3125V10.4531C26.3125 10.7708 26.3594 11.0208 26.4531 11.2031C26.5521 11.3802 26.7214 11.4688 26.9609 11.4688C27.2109 11.4688 27.3828 11.3958 27.4766 11.25C27.5755 11.1042 27.625 10.8646 27.625 10.5312C27.625 10.1094 27.5833 9.75781 27.5 9.47656C27.4167 9.1901 27.2708 8.91927 27.0625 8.66406C26.8594 8.40365 26.5755 8.10156 26.2109 7.75781L24.9766 6.58594C24.0547 5.71615 23.5938 4.72135 23.5938 3.60156C23.5938 2.42969 23.8646 1.53646 24.4062 0.921875C24.9531 0.307292 25.7422 0 26.7734 0C28.0339 0 28.9271 0.335938 29.4531 1.00781C29.9844 1.67969 30.25 2.70052 30.25 4.07031H27.4531V3.125C27.4531 2.9375 27.3984 2.79167 27.2891 2.6875C27.1849 2.58333 27.0417 2.53125 26.8594 2.53125C26.6406 2.53125 26.4792 2.59375 26.375 2.71875C26.276 2.83854 26.2266 2.99479 26.2266 3.1875C26.2266 3.38021 26.2786 3.58854 26.3828 3.8125C26.487 4.03646 26.6927 4.29427 27 4.58594L28.5859 6.10938C28.9036 6.41146 29.1953 6.73177 29.4609 7.07031C29.7266 7.40365 29.9401 7.79427 30.1016 8.24219C30.263 8.6849 30.3438 9.22656 30.3438 9.86719C30.3438 11.1589 30.1042 12.1719 29.625 12.9062C29.151 13.6354 28.3229 14 27.1406 14Z" />
+        </svg>
     </main>
 
-    <footer class="footer">
-        <a href="index.html">
-            <h1>A<span>Y</span></h1>
-        </a>
-        <h2>Thanks for stopping by. This portfolio is a snapshot of what I’m learning and making.</h2>
-        <div class="social">
-            <a href="https://www.facebook.com/anas.yahyoh.5?" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg class="facebook" role="img"
-                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <title>Facebook</title>
+    <section class="about-me-section" id="about-me-section">
+        <div class="about-layout">
+            <div class="fullname-wrapper">
+                <svg class="hello" viewBox="0 0 100 25" preserveAspectRatio="none" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
                     <path
-                        d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" />
-                </svg></a>
-            <a href="https://www.instagram.com/anas_yaboh?igsh=Mjl1ZG1sc3NkOHFo&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg
-                    class="instagram" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <title>Instagram</title>
+                        d="M4.29793 21.8184H0V3.19452H4.29793V11.3295H9.99242V3.19452H14.2904V21.8184H9.99242V13.6963H4.29793V21.8184Z"
+                        fill="white" />
                     <path
-                        d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077" />
-                </svg></a>
-            <a href="https://www.tiktok.com/@anasyahyoh?_r=1&_t=ZS-95r6Mr1o8pu" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg class="tiktok"
-                    role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <title>TikTok</title>
+                        d="M20.3529 14.731C20.8004 14.8517 21.2479 14.9465 21.6954 15.0155C22.1428 15.0845 22.5939 15.119 23.0486 15.119C23.525 15.119 23.9652 15.0673 24.3694 14.9638C24.7808 14.8517 25.1344 14.6706 25.4303 14.4206C25.7335 14.1619 25.9716 13.8213 26.1449 13.3989C26.3181 12.9764 26.4047 12.4504 26.4047 11.821C26.4047 11.3123 26.3469 10.8467 26.2315 10.4242C26.116 10.0017 25.9428 9.63959 25.7118 9.33782C25.4881 9.03604 25.2102 8.80324 24.8782 8.63942C24.5462 8.46698 24.1601 8.38076 23.7198 8.38076C23.3084 8.38076 22.9367 8.47129 22.6047 8.65235C22.28 8.83342 21.9913 9.07915 21.7387 9.38955C21.4933 9.69133 21.2804 10.0448 21.0999 10.4501C20.9267 10.8553 20.7824 11.2778 20.6669 11.7175C20.5514 12.1573 20.4684 12.6013 20.4179 13.0497C20.3674 13.498 20.3421 13.9205 20.3421 14.3171C20.3421 14.3861 20.3421 14.4551 20.3421 14.5241C20.3421 14.593 20.3457 14.662 20.3529 14.731ZM29.371 11.7822C29.371 12.3944 29.288 12.9419 29.122 13.4247C28.956 13.8989 28.7287 14.3171 28.44 14.6793C28.1585 15.0414 27.8301 15.3475 27.4548 15.5975C27.0795 15.8476 26.6789 16.0545 26.2531 16.2183C25.8273 16.3735 25.387 16.4856 24.9323 16.5546C24.4849 16.6236 24.0482 16.658 23.6224 16.658C23.0811 16.658 22.547 16.6149 22.0201 16.5287C21.4933 16.4339 20.9736 16.2873 20.4612 16.089C20.5406 16.658 20.6669 17.2012 20.8401 17.7186C21.0133 18.2273 21.2443 18.6756 21.533 19.0636C21.8217 19.443 22.1753 19.7448 22.5939 19.969C23.0197 20.1931 23.5213 20.3052 24.0987 20.3052C24.4813 20.3052 24.8457 20.2362 25.1922 20.0983C25.5386 19.9603 25.8562 19.7663 26.1449 19.5163C26.4335 19.2663 26.6862 18.9688 26.9027 18.6239C27.1264 18.279 27.3068 17.8953 27.444 17.4728L29.0246 18.1712C28.7864 18.8524 28.458 19.443 28.0394 19.9431C27.628 20.4346 27.1589 20.8441 26.632 21.1718C26.1124 21.4908 25.5566 21.7279 24.9648 21.8831C24.3802 22.0383 23.7992 22.1159 23.2218 22.1159C22.2691 22.1159 21.3886 21.9262 20.5803 21.5468C19.7719 21.1588 19.0755 20.6199 18.4909 19.9302C17.9062 19.2404 17.4479 18.417 17.1159 17.4599C16.7839 16.5028 16.6179 15.4553 16.6179 14.3171C16.6179 13.179 16.7839 12.1314 17.1159 11.1743C17.4479 10.2173 17.9062 9.39386 18.4909 8.70409C19.0755 8.01431 19.7719 7.47974 20.5803 7.10036C21.3886 6.71236 22.2691 6.51836 23.2218 6.51836C23.6837 6.51836 24.1565 6.55716 24.64 6.63476C25.1236 6.71236 25.5927 6.83739 26.0474 7.00983C26.5021 7.17365 26.9315 7.3892 27.3357 7.65649C27.7399 7.92378 28.0899 8.25573 28.3858 8.65235C28.689 9.04035 28.9271 9.49302 29.1004 10.0103C29.2808 10.5277 29.371 11.1183 29.371 11.7822Z"
+                        fill="white" />
+                    <path d="M35.3145 21.8184H31.6553V0H33.0627L35.3145 4.53958V21.8184Z" fill="white" />
+                    <path d="M42.0266 21.8184H38.3674V0H39.7748L42.0266 4.53958V21.8184Z" fill="white" />
                     <path
-                        d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" />
-                </svg></a>
+                        d="M58.2873 14.3171C58.2873 15.0931 58.2007 15.8217 58.0275 16.5028C57.8543 17.184 57.6125 17.8134 57.3022 18.3911C56.999 18.9688 56.6309 19.4904 56.1979 19.956C55.7649 20.413 55.2885 20.801 54.7689 21.12C54.2564 21.439 53.7043 21.6848 53.1125 21.8572C52.5279 22.0297 51.9252 22.1159 51.3045 22.1159C50.6838 22.1159 50.0812 22.0297 49.4966 21.8572C48.912 21.6848 48.3599 21.439 47.8402 21.12C47.3278 20.801 46.855 20.413 46.422 19.956C45.989 19.4904 45.6173 18.9688 45.3069 18.3911C45.0038 17.8134 44.7656 17.184 44.5924 16.5028C44.4192 15.8131 44.3326 15.0845 44.3326 14.3171C44.3326 13.5497 44.4192 12.8255 44.5924 12.1443C44.7656 11.4546 45.0038 10.8208 45.3069 10.2431C45.6173 9.66546 45.989 9.14813 46.422 8.69115C46.855 8.22556 47.3278 7.83325 47.8402 7.51423C48.3599 7.19521 48.912 6.94947 49.4966 6.77703C50.0812 6.60459 50.6838 6.51836 51.3045 6.51836C51.9252 6.51836 52.5279 6.60459 53.1125 6.77703C53.7043 6.94947 54.2564 7.19521 54.7689 7.51423C55.2885 7.83325 55.7649 8.22556 56.1979 8.69115C56.6309 9.14813 56.999 9.66546 57.3022 10.2431C57.6125 10.8208 57.8543 11.4546 58.0275 12.1443C58.2007 12.8255 58.2873 13.5497 58.2873 14.3171ZM54.5632 14.3171C54.5632 13.9033 54.5415 13.4678 54.4982 13.0109C54.4621 12.5453 54.3972 12.0926 54.3033 11.6529C54.2095 11.2045 54.0796 10.7777 53.9136 10.3725C53.7548 9.95861 53.5563 9.60079 53.3182 9.29902C53.08 8.98862 52.7949 8.74289 52.4629 8.56182C52.1309 8.37213 51.7448 8.27729 51.3045 8.27729C50.8859 8.27729 50.5142 8.37213 50.1895 8.56182C49.8647 8.75151 49.5796 9.00586 49.3342 9.32488C49.096 9.63528 48.8939 9.99741 48.7279 10.4113C48.5692 10.8251 48.4392 11.2563 48.3382 11.7046C48.2372 12.1443 48.165 12.5927 48.1217 13.0497C48.0784 13.498 48.0567 13.9205 48.0567 14.3171C48.0567 14.7137 48.0784 15.1405 48.1217 15.5975C48.165 16.0459 48.2372 16.4942 48.3382 16.9426C48.4392 17.3909 48.5692 17.822 48.7279 18.2359C48.8939 18.6411 49.096 19.0033 49.3342 19.3223C49.5796 19.6327 49.8647 19.8827 50.1895 20.0724C50.5142 20.2621 50.8859 20.357 51.3045 20.357C51.7376 20.357 52.1201 20.2664 52.4521 20.0854C52.7841 19.8957 53.0692 19.6456 53.3074 19.3352C53.5527 19.0248 53.7548 18.667 53.9136 18.2618C54.0724 17.8565 54.1987 17.4297 54.2925 16.9814C54.3936 16.533 54.4621 16.0804 54.4982 15.6234C54.5415 15.1664 54.5632 14.731 54.5632 14.3171Z"
+                        fill="white" />
+                    <path d="M71.4193 21.8184H67.1214V3.19452H71.4193V21.8184Z" fill="white" />
+                    <path
+                        d="M78.1206 5.21211C78.1206 5.60873 78.0773 6.01397 77.9907 6.42783C77.9041 6.8417 77.7814 7.24263 77.6226 7.63063C77.471 8.01862 77.2906 8.38938 77.0813 8.74289C76.872 9.08777 76.6447 9.39386 76.3993 9.66115L74.8403 8.67822C74.9919 8.54027 75.1434 8.3592 75.295 8.13502C75.4538 7.91085 75.5476 7.68667 75.5765 7.46249C75.3672 7.38489 75.1759 7.27281 75.0027 7.12623C74.8367 6.97965 74.6924 6.80721 74.5697 6.6089C74.447 6.41059 74.3495 6.19503 74.2774 5.96223C74.2124 5.72081 74.1799 5.47077 74.1799 5.21211C74.1799 4.89309 74.2304 4.59131 74.3315 4.30678C74.4398 4.01362 74.5805 3.76358 74.7537 3.55665C74.9341 3.34109 75.1434 3.17296 75.3816 3.05225C75.6198 2.92292 75.876 2.85825 76.1503 2.85825C76.4245 2.85825 76.6807 2.91861 76.9189 3.03932C77.1571 3.16003 77.3664 3.32816 77.5468 3.54371C77.7273 3.75927 77.868 4.00931 77.969 4.29384C78.0701 4.57838 78.1206 4.88446 78.1206 5.21211Z"
+                        fill="white" />
+                    <path
+                        d="M100 13.1014C100 14.1274 99.899 15.1966 99.6969 16.3088C99.4948 17.4211 99.2097 18.5075 98.8416 19.568C98.4807 20.6199 98.0441 21.6158 97.5317 22.5556C97.0192 23.4954 96.4491 24.3102 95.8212 25L94.4463 24.1076C94.6555 23.6593 94.8468 23.1549 95.02 22.5944C95.1932 22.034 95.352 21.4434 95.4964 20.8226C95.6407 20.2018 95.767 19.5637 95.8753 18.9084C95.9835 18.2531 96.0738 17.6022 96.1459 16.9555C96.2253 16.3002 96.2831 15.6665 96.3192 15.0543C96.3552 14.4421 96.3733 13.8688 96.3733 13.3342C96.3733 13.0324 96.3661 12.7048 96.3516 12.3513C96.3372 11.9978 96.3047 11.6442 96.2542 11.2907C96.2109 10.9372 96.1423 10.601 96.0485 10.2819C95.9547 9.9543 95.8248 9.66546 95.6588 9.41542C95.5 9.15675 95.2979 8.95413 95.0525 8.80755C94.8143 8.65235 94.5256 8.57475 94.1864 8.57475C93.8544 8.57475 93.5693 8.68253 93.3312 8.89809C93.1002 9.10502 92.9017 9.37662 92.7357 9.71288C92.5697 10.0491 92.4362 10.4285 92.3352 10.851C92.2413 11.2735 92.1692 11.7003 92.1187 12.1314C92.0681 12.5539 92.032 12.9591 92.0104 13.3471C91.996 13.7351 91.9887 14.0628 91.9887 14.3301V21.8184H88.3404V14.8603C88.3404 14.5585 88.344 14.1964 88.3512 13.7739C88.3584 13.3428 88.3476 12.8945 88.3187 12.4289C88.2971 11.9633 88.2502 11.502 88.178 11.045C88.113 10.5794 88.0048 10.1655 87.8532 9.80341C87.7089 9.44128 87.5104 9.14813 87.2578 8.92395C87.0052 8.69115 86.6876 8.57475 86.3051 8.57475C85.9803 8.57475 85.706 8.68253 85.4823 8.89809C85.2658 9.11364 85.0817 9.39386 84.9302 9.73875C84.7858 10.075 84.6703 10.4587 84.5837 10.8898C84.5043 11.3123 84.443 11.7391 84.3997 12.1702C84.3636 12.5927 84.342 12.9979 84.3347 13.3859C84.3275 13.7653 84.3239 14.08 84.3239 14.3301V21.8184H80.6539V6.8805H82.0613L83.4037 10.3595C83.7068 9.15244 84.1832 8.21262 84.8327 7.54009C85.4895 6.85894 86.3592 6.51836 87.4418 6.51836C88.4162 6.51836 89.2245 6.75979 89.8668 7.24263C90.5092 7.72547 91.0144 8.51009 91.3825 9.59648C91.5918 9.12226 91.8227 8.69546 92.0753 8.31609C92.3352 7.93671 92.6203 7.61338 92.9306 7.34609C93.2482 7.07881 93.5982 6.87619 93.9807 6.73823C94.3633 6.59165 94.7855 6.51836 95.2474 6.51836C96.099 6.51836 96.8244 6.6865 97.4234 7.02276C98.0297 7.35041 98.524 7.80738 98.9066 8.39369C99.2891 8.98 99.567 9.67839 99.7402 10.4889C99.9134 11.2907 100 12.1616 100 13.1014Z"
+                        fill="white" />
+                </svg>
+
+                <svg class="anas" viewBox="0 0 31 14" preserveAspectRatio="none" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0 13.875L1.32812 0.125H5.99219L7.29688 13.875H4.69531L4.5 11.6562H2.84375L2.67188 13.875H0ZM3.03906 9.46094H4.28906L3.6875 2.46875H3.5625L3.03906 9.46094ZM8.14062 13.875V0.125H10.9688L12.2344 6.71094V0.125H14.8906V13.875H12.2031L10.8281 7V13.875H8.14062ZM15.7344 13.875L17.0625 0.125H21.7266L23.0312 13.875H20.4297L20.2344 11.6562H18.5781L18.4062 13.875H15.7344ZM18.7734 9.46094H20.0234L19.4219 2.46875H19.2969L18.7734 9.46094ZM27.1406 14C25.8854 14 24.9792 13.6875 24.4219 13.0625C23.8698 12.4375 23.5938 11.4427 23.5938 10.0781V8.73438H26.3125V10.4531C26.3125 10.7708 26.3594 11.0208 26.4531 11.2031C26.5521 11.3802 26.7214 11.4688 26.9609 11.4688C27.2109 11.4688 27.3828 11.3958 27.4766 11.25C27.5755 11.1042 27.625 10.8646 27.625 10.5312C27.625 10.1094 27.5833 9.75781 27.5 9.47656C27.4167 9.1901 27.2708 8.91927 27.0625 8.66406C26.8594 8.40365 26.5755 8.10156 26.2109 7.75781L24.9766 6.58594C24.0547 5.71615 23.5938 4.72135 23.5938 3.60156C23.5938 2.42969 23.8646 1.53646 24.4062 0.921875C24.9531 0.307292 25.7422 0 26.7734 0C28.0339 0 28.9271 0.335938 29.4531 1.00781C29.9844 1.67969 30.25 2.70052 30.25 4.07031H27.4531V3.125C27.4531 2.9375 27.3984 2.79167 27.2891 2.6875C27.1849 2.58333 27.0417 2.53125 26.8594 2.53125C26.6406 2.53125 26.4792 2.59375 26.375 2.71875C26.276 2.83854 26.2266 2.99479 26.2266 3.1875C26.2266 3.38021 26.2786 3.58854 26.3828 3.8125C26.487 4.03646 26.6927 4.29427 27 4.58594L28.5859 6.10938C28.9036 6.41146 29.1953 6.73177 29.4609 7.07031C29.7266 7.40365 29.9401 7.79427 30.1016 8.24219C30.263 8.6849 30.3438 9.22656 30.3438 9.86719C30.3438 11.1589 30.1042 12.1719 29.625 12.9062C29.151 13.6354 28.3229 14 27.1406 14Z"
+                        fill="#006AFF" />
+                </svg>
+
+                <svg class="yahyoh" viewBox="0 0 200 63" preserveAspectRatio="none" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M9.81488 62.4375V42.082L0 0.5625H12.19L15.613 21.5156L19.036 0.5625H31.1911L21.4111 42.082V62.4375H9.81488Z"
+                        fill="white" />
+                    <path
+                        d="M30.9466 62.4375L36.8844 0.5625H57.7366L63.5697 62.4375H51.9385L51.0653 52.4531H43.6605L42.8921 62.4375H30.9466ZM44.5337 42.5742H50.1222L47.4328 11.1094H46.8739L44.5337 42.5742Z"
+                        fill="white" />
+                    <path
+                        d="M67.3419 62.4375V0.5625H79.5669V22.6758H85.365V0.5625H97.5899V62.4375H85.365V34.3828H79.5669V62.4375H67.3419Z"
+                        fill="white" />
+                    <path
+                        d="M110.479 62.4375V42.082L100.664 0.5625H112.854L116.277 21.5156L119.7 0.5625H131.855L122.075 42.082V62.4375H110.479Z"
+                        fill="white" />
+                    <path
+                        d="M149.633 63C144.72 63 140.959 61.5117 138.351 58.5352C135.767 55.5352 134.474 51.2109 134.474 45.5625V16.1719C134.474 10.875 135.755 6.85547 138.316 4.11328C140.901 1.37109 144.673 0 149.633 0C154.593 0 158.354 1.37109 160.915 4.11328C163.5 6.85547 164.792 10.875 164.792 16.1719V45.5625C164.792 51.2109 163.488 55.5352 160.88 58.5352C158.295 61.5117 154.547 63 149.633 63ZM149.738 51.6094C151.601 51.6094 152.532 49.793 152.532 46.1602V15.9609C152.532 12.9141 151.624 11.3906 149.808 11.3906C147.759 11.3906 146.734 12.9492 146.734 16.0664V46.2305C146.734 48.1523 146.967 49.5352 147.433 50.3789C147.898 51.1992 148.667 51.6094 149.738 51.6094Z"
+                        fill="white" />
+                    <path
+                        d="M169.752 62.4375V0.5625H181.977V22.6758H187.775V0.5625H200V62.4375H187.775V34.3828H181.977V62.4375H169.752Z"
+                        fill="white" />
+                </svg>
+            </div>
+
+            <div class="about-me-content">
+                <div class="about-me-info-container">
+                    <div class="about-me-info">
+                        <h2 class="head-info">Mathematics &amp; Computer Science Student</h2>
+                        <p class="sub-info">I’m interested in software development, web development, and programming. I enjoy
+                            building practical applications, learning new tools, and solving problems with code.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about-me-card-wrapper">
+                    <article class="about-me-card">
+                        <h3 class="card-head">Grounded in fundamentals</h3>
+                        <p class="card-sub">Coursework in mathematics, computer science, and problem-solving.</p>
+                    </article>
+
+                    <article class="about-me-card">
+                        <h3 class="card-head">Thumbnail design for large audiences</h3>
+                        <p class="card-sub">Three years designing thumbnails for large-audience channels.</p>
+                    </article>
+                </div>
+            </div>
         </div>
-    </footer>
+
+        <div class="education-section" aria-labelledby="education-title">
+            <span class="edu-title" id="education-title">Education</span>
+
+            <div class="edu-card-wrapper">
+                <article class="edu-profile-card">
+                    <img class="edu-emblem" src="assets/image/emblem/psu_logo.webp" alt="Prince of Songkla University">
+                    <div class="edu-info">
+                        <span class="edu-years">2024 - Present</span>
+                        <h3 class="edu-school">Prince of Songkla University</h3>
+                        <p class="edu-degree">Bachelor of Science</p>
+                    </div>
+                </article>
+
+                <div class="edu-stats" aria-label="Academic summary">
+                    <article class="edu-stat-card">
+                        <span class="edu-stat-label">Cumulative GPA</span>
+                        <strong class="edu-stat-value">3.70</strong>
+                    </article>
+                    <article class="edu-stat-card">
+                        <span class="edu-stat-label">Credits counted toward GPA</span>
+                        <strong class="edu-stat-value">75</strong>
+                    </article>
+                    <article class="edu-stat-card">
+                        <span class="edu-stat-label">Latest semester GPA</span>
+                        <strong class="edu-stat-value">3.71</strong>
+                        <span class="edu-stat-note">Semester 2/2568</span>
+                    </article>
+                </div>
+
+                <article class="edu-course-card">
+                    <div class="edu-course-heading">
+                        <h3 class="edu-course-title">Selected coursework</h3>
+                        <p class="edu-course-description">Mathematics and computing foundations</p>
+                    </div>
+                    <ul class="edu-course-list">
+                        <li><span>Introduction to Computer Programming</span><strong>A</strong></li>
+                        <li><span>Data Management</span><strong>A</strong></li>
+                        <li><span>Data Structures</span><strong>B+</strong></li>
+                        <li><span>Algorithms and Complexity</span><strong>B+</strong></li>
+                        <li><span>Linear Algebra and Applications</span><strong>A</strong></li>
+                        <li><span>Probability</span><strong>A</strong></li>
+                        <li><span>Calculus I</span><strong>A</strong></li>
+                        <li><span>Calculus II</span><strong>A</strong></li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+
+        <div class="skills-tools-section" id="skills" role="region" aria-labelledby="skills-title">
+            <h2 class="edu-title skills-tools" id="skills-title">Skills &amp; Tools</h2>
+
+            <div class="skills-category-list">
+                <div class="skills-category" aria-labelledby="skills-development-title">
+                    <div class="skills-category-heading">
+                        <span class="skills-category-number">01</span>
+                        <div>
+                            <h3 id="skills-development-title">Development</h3>
+                            <p>Building for the web and working with data.</p>
+                        </div>
+                    </div>
+                    <ul class="skills-tool-list">
+                        <li><img src="https://thesvg.org/icons/python/default.svg" alt=""><span>Python</span></li>
+                        <li><img src="https://thesvg.org/icons/javascript/default.svg" alt=""><span>JavaScript</span>
+                        </li>
+                        <li><img src="https://thesvg.org/icons/c/default.svg" alt=""><span>C</span></li>
+                        <li><img src="https://thesvg.org/icons/cplusplus/default.svg" alt=""><span>C++</span></li>
+                        <li><img src="https://thesvg.org/icons/html5/default.svg" alt=""><span>HTML5</span></li>
+                        <li><img src="https://thesvg.org/icons/css3/default.svg" alt=""><span>CSS</span></li>
+                        <li><img src="https://thesvg.org/icons/jquery/mono.svg" alt=""><span>jQuery</span></li>
+                        <li><img src="https://thesvg.org/icons/bootstrap/default.svg" alt=""><span>Bootstrap</span>
+                        </li>
+                        <li><img src="https://thesvg.org/icons/mysql/light.svg" alt=""><span>MySQL</span></li>
+                        <li><img src="https://thesvg.org/icons/r-lang/default.svg" alt=""><span>R</span></li>
+                        <li><img src="https://thesvg.org/icons/visual-studio-code/default.svg" alt=""><span>VS
+                                Code</span></li>
+                    </ul>
+                </div>
+
+                <div class="skills-category" aria-labelledby="skills-design-title">
+                    <div class="skills-category-heading">
+                        <span class="skills-category-number">02</span>
+                        <div>
+                            <h3 id="skills-design-title">Design</h3>
+                            <p>Creating visuals and shaping interfaces.</p>
+                        </div>
+                    </div>
+                    <ul class="skills-tool-list">
+                        <li><img src="https://thesvg.org/icons/figma/default.svg" alt=""><span>Figma</span></li>
+                        <li><img src="https://thesvg.org/icons/canva/default.svg" alt=""><span>Canva</span></li>
+                        <li><img src="https://thesvg.org/icons/affinity/default.svg" alt=""><span>Affinity</span>
+                        </li>
+                        <li><img src="https://upload.wikimedia.org/wikipedia/commons/8/80/IbisPaint_X_%28App_Icon%29.svg"
+                                alt=""><span>ibisPaint X</span></li>
+                    </ul>
+                </div>
+
+                <div class="skills-category" aria-labelledby="skills-ai-title">
+                    <div class="skills-category-heading">
+                        <span class="skills-category-number">03</span>
+                        <div>
+                            <h3 id="skills-ai-title">AI tools</h3>
+                            <p>Exploring new ideas and speeding up workflows.</p>
+                        </div>
+                    </div>
+                    <ul class="skills-tool-list">
+                        <li><img src="https://thesvg.org/icons/openai-chatgpt/default.svg" alt=""><span>ChatGPT</span>
+                        </li>
+                        <li><img src="https://thesvg.org/icons/claude/default.svg" alt=""><span>Claude</span></li>
+                        <li><img src="https://thesvg.org/icons/gemini/default.svg" alt=""><span>Gemini</span></li>
+                        <li><img src="https://thesvg.org/icons/google-antigravity/default.svg"
+                                alt=""><span>Antigravity</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+        <span class="header">Projects</span>
+
+        <div class="projects-card-wrapper">
+            <a href="https://anasyahyoh-hub.github.io/webroom/" target="_blank">
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="fade-blend"></div>
+                        <iframe class="project-media" src="https://anasyahyoh-hub.github.io/webroom/"
+                            frameborder="0"></iframe>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-name">Web Room</span>
+                        <span class="project-description">
+                            A collection of projects and assignments completed during my studies.
+                        </span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://anasyahyoh-hub.github.io/calculator/" target="_blank">
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="fade-blend"></div>
+                        <iframe class="project-media" src="https://anasyahyoh-hub.github.io/calculator/"
+                            frameborder="0"></iframe>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-name">Calculator</span>
+                        <span class="project-description">A calculator website featuring a liquid glass-inspired design.</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://wariskung.github.io/Tower-Defence/" target="_blank">
+                <div class="project-card">
+                    <div class="project-img">
+                        <div class="fade-blend"></div>
+                        <iframe class="project-media" src="https://wariskung.github.io/Tower-Defence/"
+                            frameborder="0"></iframe>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-name">ASTRA AETHER GUARDIANS</span>
+                        <span class="project-description">A tower defense game built with JavaScript.</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <span class="header">Design</span>
+
+        <div class="design-container">
+            <img class="img1_1" src="assets/image/design/logos/math-monster.jpg" alt="">
+            <img class="img1_1" src="assets/image/design/logos/imwonderful-math.jpg" alt="">
+            <img class="img1_1" src="assets/image/design/logos/cake-kross.jpg" alt="">
+            <img class="img16_9" src="assets/image/design/posters/aspiration.jpg" alt="">
+            <img class="img4_5" src="assets/image/design/posters/grown-your-aspiration.jpg" alt="">
+            <img class="img1_1" src="assets/image/design/logos/mcs67.jpg" alt="">
+            <img class="img1_1" src="assets/image/design/logos/math-pang.jpg" alt="">
+            <img class="img1_1" src="assets/image/design/logos/mr_frenchfries.jpg" alt="">
+            <div class="design-feature-row">
+                <div class="wrapimg1_1">
+                    <img class="img1_1" src="assets/image/design/logos/valconic_griffin.jpg" alt="">
+                    <img class="img1_1" src="assets/image/design/logos/valcanic_boom.jpg" alt="">
+                </div>
+                <img class="img4_5" src="assets/image/design/posters/connection-never-ends.jpg" alt="">
+            </div>
+            <img class="img16_9" src="assets/image/design/thumbnails/gold-farm.png" alt="">
+            <img class="img1_1" src="assets/image/design/logos/red-rose.jpg" alt="">
+            <img class="img1_1" src="assets/image/design/logos/sharkz.jpg" alt="">
+            <img class="img16_9" src="assets/image/design/thumbnails/iron-farmnew.png" alt="">
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact-section" aria-labelledby="contact-title">
+        <div class="contact-layout">
+            <div class="contact-copy">
+                <span class="contact-eyebrow">Get in touch</span>
+                <h2 class="contact-title" id="contact-title">Let’s learn and build together.</h2>
+                <p class="contact-description">
+                    I’m Anas, a Mathematics and Computer Science student at Prince of Songkla University. I enjoy
+                    exploring software and web development, and I’m open to projects, collaborations, and new
+                    opportunities to learn.
+                </p>
+                <a class="contact-cta" href="mailto:anas.yahyoh48@gmail.com">
+                    <span>Send me an email</span>
+                    <span class="contact-cta-arrow" aria-hidden="true">↗</span>
+                </a>
+            </div>
+
+            <div class="contact-card" aria-label="Contact details">
+                <span class="contact-card-label">Email</span>
+                <a class="contact-email" href="mailto:anas.yahyoh48@gmail.com">anas.yahyoh48@gmail.com</a>
+                <div class="contact-divider" aria-hidden="true"></div>
+                <span class="contact-card-label">Connect with me</span>
+                <div class="contact-socials">
+                    <a href="https://www.facebook.com/anas.yahyoh.5/" target="_blank" rel="noopener noreferrer">Facebook
+                        <span aria-hidden="true">↗</span></a>
+                    <a href="https://github.com/anasyahyoh-hub" target="_blank" rel="noopener noreferrer">GitHub <span
+                            aria-hidden="true">↗</span></a>
+                </div>
+            </div>
+        </div>
+
+        <footer class="contact-footer">
+            <a class="contact-brand" href="#hero-section">ANAS</a>
+            <span>Thanks for stopping by.</span>
+            <a class="back-to-top" href="#hero-section">Back to top ↑</a>
+        </footer>
+    </section>
+
 </body>
 
 </html>
